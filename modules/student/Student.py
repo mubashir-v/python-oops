@@ -6,6 +6,7 @@ class StudentClass:
         self.gender = None
         self.mobile_number = ''
         self.email_address = ''
+        self.password = ''
         self.preferred_language = ''
         self.school_college_name = ''
         self.class_grade = ''
@@ -20,4 +21,6 @@ class StudentClass:
         self.parent_guardian_email_address = ''
         self.preferred_communication_method = ''
 
-    
+    def setUserNameAndPassword(self, email, password):
+        self.email_address = email
+        self.password = password
